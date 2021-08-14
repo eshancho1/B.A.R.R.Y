@@ -72,15 +72,14 @@ def start_barry():
         print(info)
         talk(info)
 
-    elif 'date' in command:
-        talk('sorry, I have a headache')
+
     elif 'Are you still looking for love Barry?' in command:
-        talk('I am in a relationship with wifi')
+        talk('I am in a relationship with wifi sir.')
 
     elif 'Tell me a joke' in command:
         talk(pyjokes.get_joke())
     else:
-        talk('Please say the command again.')
+        talk('Can you please repeat the question')
 
 
 while True:
